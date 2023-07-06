@@ -1,4 +1,5 @@
 # Turtle_life
-https://i.pinimg.com/originals/1f/d1/31/1fd131574c156cc3934d7155f8bebd4c.gif
+![image](https://github.com/luccaccarmelin/Turtle_life/assets/81098582/5472861a-1a1b-4f09-b25f-18643cbdf526)
+
 
 this is a game of turtles :)
