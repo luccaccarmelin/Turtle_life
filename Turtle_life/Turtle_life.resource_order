@@ -21,12 +21,12 @@
     {"name":"Spr_Player_Run_Right","order":6,"path":"sprites/Spr_Player_Run_Right/Spr_Player_Run_Right.yy",},
     {"name":"Spr_Player_Idle_Left","order":1,"path":"sprites/Spr_Player_Idle_Left/Spr_Player_Idle_Left.yy",},
     {"name":"Spr_Player_Run_Left","order":5,"path":"sprites/Spr_Player_Run_Left/Spr_Player_Run_Left.yy",},
-    {"name":"Obj_dash","order":2,"path":"objects/Obj_dash/Obj_dash.yy",},
     {"name":"Spr_Player_Run_Up","order":7,"path":"sprites/Spr_Player_Run_Up/Spr_Player_Run_Up.yy",},
     {"name":"Spr_Player_Idle_Up","order":3,"path":"sprites/Spr_Player_Idle_Up/Spr_Player_Idle_Up.yy",},
     {"name":"Obj_Wall","order":1,"path":"objects/Obj_Wall/Obj_Wall.yy",},
     {"name":"Spr_Player_Run_Down","order":8,"path":"sprites/Spr_Player_Run_Down/Spr_Player_Run_Down.yy",},
     {"name":"Spr_Player_Idle_Right","order":2,"path":"sprites/Spr_Player_Idle_Right/Spr_Player_Idle_Right.yy",},
+    {"name":"Obj_Dash","order":2,"path":"objects/Obj_Dash/Obj_Dash.yy",},
     {"name":"Spr_Wall","order":1,"path":"sprites/Spr_Wall/Spr_Wall.yy",},
   ],
 }

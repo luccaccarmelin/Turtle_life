@@ -69,9 +69,9 @@ function scr_player_walk(){
 	}
 	
 	if keyboard_check_pressed(ord("E")){
-		alarm[0] = 30;
+		alarm[0] = 10;
 		dash_dir = point_direction(x, y, mouse_x, mouse_y);
-		state = scr_player_dash;
+		state = scr_player_dash;	
 	}
 }
 
@@ -82,6 +82,6 @@ function scr_player_dash(){
 		x += hveloc;
 		y += vveloc;
 		
-		var _inst = instance_create_layer(x, y, "Instances", Obj_dash)
+		var _inst = instance_create_layer(x, y, "Instances_1", Obj_Dash);
 		_inst.sprite_index = sprite_index;
 }
