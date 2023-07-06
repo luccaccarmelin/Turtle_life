@@ -5,3 +5,11 @@
 
 this game is on beta version, and many other things will be added but before
 that you can see this lovely image of a turtle eating strawberry <3
+
+commands:
+
+A = walk right
+W = walk up
+D = walk left
+S = walk down
+E = dash
