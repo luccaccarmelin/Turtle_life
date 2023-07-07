@@ -8,7 +8,19 @@ function scr_player_walk(){
 	Left = keyboard_check(ord("A"));
 	Down = keyboard_check(ord("S"));
 
-	hveloc = (Right - Left) * veloc;
+	hveloc = (Right - Left);
+	vveloc = (Down - Up);
+	
+	veloc_dir = point_direction(x, y, x + hveloc, y + vveloc);
+	
+	if hveloc != 0 or vveloc != 0{
+		veloc = 2;	
+	}else{
+		veloc = 0;
+	}
+	
+	hveloc = lengthdir_x(veloc, veloc_dir)
+	vveloc = lengthdir_y(veloc, veloc_dir)
 
 	if place_meeting(x + hveloc, y, Obj_Wall){
 			while !place_meeting(x + sign(hveloc), y, Obj_Wall){
@@ -19,8 +31,6 @@ function scr_player_walk(){
 	}
 
 	x += hveloc;
-
-	vveloc = (Down - Up) * veloc;
 
 	if place_meeting(x, y + vveloc, Obj_Wall){
 		while !place_meeting(x, y + sign(vveloc), Obj_Wall){
@@ -67,11 +77,14 @@ function scr_player_walk(){
 			break;
 		}
 	}
-	
-	if keyboard_check_pressed(ord("E")){
-		alarm[0] = 10;
-		dash_dir = point_direction(x, y, mouse_x, mouse_y);
-		state = scr_player_dash;	
+	if stamina >= 20{
+		if keyboard_check_pressed(ord("E")){
+			stamina -= 20;
+			alarm[1] = 440;
+			alarm[0] = 10;
+			dash_dir = point_direction(x, y, mouse_x, mouse_y);
+			state = scr_player_dash;	
+		}
 	}
 }
 

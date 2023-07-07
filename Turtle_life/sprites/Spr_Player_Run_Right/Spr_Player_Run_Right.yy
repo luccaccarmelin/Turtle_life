@@ -14,7 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6ed12a06-6308-41e6-a814-0ccfe53cc95d",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71524e46-faa7-44d8-b560-8f18aa5e133f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"06ab384b-0b58-45ab-bf99-62ec0d0d4a77",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -48,15 +48,15 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 2.0,
+    "playbackSpeed": 900.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6ed12a06-6308-41e6-a814-0ccfe53cc95d","path":"sprites/Spr_Player_Run_Right/Spr_Player_Run_Right.yy",},},},"Disabled":false,"id":"a65e713d-7cb4-4c9d-8865-39eb9efa4cde","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"71524e46-faa7-44d8-b560-8f18aa5e133f","path":"sprites/Spr_Player_Run_Right/Spr_Player_Run_Right.yy",},},},"Disabled":false,"id":"e5f06547-046d-4966-8539-98f54d8d905e","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6ed12a06-6308-41e6-a814-0ccfe53cc95d","path":"sprites/Spr_Player_Run_Right/Spr_Player_Run_Right.yy",},},},"Disabled":false,"id":"0fbf8a49-91f2-4059-be5e-e8103c62bf3b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"06ab384b-0b58-45ab-bf99-62ec0d0d4a77","path":"sprites/Spr_Player_Run_Right/Spr_Player_Run_Right.yy",},},},"Disabled":false,"id":"644a0d23-04d9-4cc3-a6a7-e0bae3513ff1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
